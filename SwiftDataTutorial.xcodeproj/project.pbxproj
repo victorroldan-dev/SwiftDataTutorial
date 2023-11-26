@@ -11,6 +11,7 @@
 		8EE7260E2B116E3F0061A02A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7260D2B116E3F0061A02A /* ContentView.swift */; };
 		8EE726102B116E410061A02A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE7260F2B116E410061A02A /* Assets.xcassets */; };
 		8EE726132B116E410061A02A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE726122B116E410061A02A /* Preview Assets.xcassets */; };
+		8EE7261B2B116EC60061A02A /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7261A2B116EC60061A02A /* CountryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8EE7260D2B116E3F0061A02A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EE7260F2B116E410061A02A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EE726122B116E410061A02A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EE7261A2B116EC60061A02A /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		8EE7260A2B116E3F0061A02A /* SwiftDataTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				8EE726192B116EAE0061A02A /* Model */,
 				8EE7260B2B116E3F0061A02A /* SwiftDataTutorialApp.swift */,
 				8EE7260D2B116E3F0061A02A /* ContentView.swift */,
 				8EE7260F2B116E410061A02A /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				8EE726122B116E410061A02A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EE726192B116EAE0061A02A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8EE7261A2B116EC60061A02A /* CountryModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				8EE7260E2B116E3F0061A02A /* ContentView.swift in Sources */,
 				8EE7260C2B116E3F0061A02A /* SwiftDataTutorialApp.swift in Sources */,
+				8EE7261B2B116EC60061A02A /* CountryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

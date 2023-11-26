@@ -2,10 +2,10 @@
 //  SwiftDataTutorialApp.swift
 //  SwiftDataTutorial
 //
-//  Created by Victor Roldan on 24/11/23.
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct SwiftDataTutorialApp: App {
@@ -13,5 +13,6 @@ struct SwiftDataTutorialApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: [CountryModel.self])
     }
 }
