@@ -12,7 +12,7 @@ struct SwiftDataTutorialApp: App {
     let container: ModelContainer = {
         let container : ModelContainer!
         
-        let schema = Schema([CountryModel.self])
+        let schema = Schema([CountryModel.self, CityModel.self])
         
         let config = ModelConfiguration("CountryModelSchema",
                                         schema: schema,

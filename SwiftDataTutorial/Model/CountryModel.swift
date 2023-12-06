@@ -13,6 +13,9 @@ class CountryModel{
     var name: String
     var code: String
     
+    @Relationship(deleteRule: .cascade, inverse: \CityModel.country)
+    var cities: [CityModel]?
+    
     init(name: String, code: String) {
         self.name = name
         self.code = code
