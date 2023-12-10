@@ -12,13 +12,15 @@ class CountryModel{
     var id = UUID()
     var name: String
     var code: String
+    var date: Date
     
     @Relationship(deleteRule: .cascade, inverse: \CityModel.country)
     var cities: [CityModel]?
     
-    init(name: String, code: String) {
+    init(name: String, code: String, date: Date = .now) {
         self.name = name
         self.code = code
+        self.date = date
     }
     
     static func getRandomCountry() -> CountryModel{
